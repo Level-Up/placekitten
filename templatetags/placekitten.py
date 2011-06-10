@@ -28,6 +28,6 @@ class placekitten(Tag):
         host = "http://placekitten.com/g/" if color else "http://placekitten.com/"
         url = "%s%d/%d" % (host, width, height)
                 
-        return '<img src="%s" alt="I can haz placeholder?" />' % url
+        return '<img src="%s" width="%d" height="%d" alt="I can haz placeholder?" />' % (url, width, height)
 
 register.tag(placekitten)
