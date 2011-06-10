@@ -1,6 +1,6 @@
 # Super cute place holder images
 
-Super simple way to add [placekitten](placekitten.com) images to your Django templates.
+Super simple way to add [placekitten](http://placekitten.com) images to your Django templates.
 
 ## Installation
 
